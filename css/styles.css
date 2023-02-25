@@ -1,39 +1,125 @@
 body{
     
-    background-color: #F4D03F;
-    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+background: rgb(63,94,251); /* Requirement-2.4*/
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, /* Requirement-2.10*/
+ rgba(252,70,107,1) 100%); /* Requirement-2.4*/
+
+}
+
+/* Requirement-2.B*/
+h1, h2, h3, h4, h5, h6
+{
+    font-size:larger; /* Requirement-2.1*/
+    color: rgb(3, 36, 54); /* Requirement-2.3*/
+    font-weight: 200; /* Requirement-2.1*/
+    font-family:fantasy /* Requirement-2.1*/
 
 }
 
 
-  .head .h{
-    color: red;
-    line-height: 30px;
+/* Requirement-2.A*/
+ul{  
+    background-color: rgb(78, 91, 207);
+    display: block;
+    list-style-type: circle; /* Requirement-2.8*/
+    font-family:'Courier New', Courier, monospace
+    
+    
 
 }
- 
 
+figure{
+    font-size: medium; /* Requirement-2.1*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif /* Requirement-2.1*/
+}
+
+.sum{
+    font-size: medium; /* Requirement-2.1*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif /* Requirement-2.1*/
+}
+/* Requirement-2.C*/
 .text{
-    font-size: large;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  }
+    color: blue; /* Requirement-2.3*/
+    line-height: 30px; /* Requirement-2.2*/
+    font-size: large; 
+    font-family:cursive; 
 
-
-.text {
-    color: blue;
-    line-height: 30px;
   }
 
   table tr td {
-    color: rgb(24, 22, 168);
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 10px;
-  }
- 
+    color: rgb(58, 7, 87);
+    border-color:aliceblue; /* Requirement-2.5*/
+    border: 2px solid rgb(6, 70, 27); /* Requirement-2.5*/
+    padding: 10px; /* Requirement-2.6*/
+    z-index: -1;
 
-  div.special list{
-    list-style: lower-latin;
-    padding-left: 50px;
   }
 
+
+  div.box list{
+    list-style:lower-latin; /* Requirement-2.8*/
+    padding-left: 50px; /* Requirement-2.9*/
+  }
+
+.foot{
+    font-size: medium; /* Requirement-2.1*/
+    position: fixed; /* Requirement-2.15*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif /* Requirement-2.1*/
+
+}
+
+
+/* Requirement-2.C*/
+ul.menu {
+    list-style-type: none;  /* Requirement-2.8*/
+    margin: 0; /* Requirement-2.6*/
+    padding: 0; /* Requirement-2.6*/
+    overflow:hidden;  /* Requirement-2.14*/
+    visibility: visible; /* Requirement-2.16*/
+    background-color: rgb(127, 115, 182);
+    height:auto; /* Requirement-2.7*/
+    z-index: 0;/* Requirement-2.17*/
+    
+  }
+  
+  ul.menu li {
+    float:left; /* Requirement-2.11*/
+    border-right: 1px solid #bbb;
+    clear:none /* Requirement-2.13*/
+    
+  }
+  
+
+  ul.menu li:last-child {
+    border-right: none;
+  }
+  
+/* Requirement-2.E*/
+  ul.menu li a:hover:not(.active) {
+    display: block; /* Requirement-2.12*/
+    color: white;
+    text-align:center; /* Requirement-2.2*/
+    padding: 10px 12px; /* Requirement-2.6*/
+    
+  }
+  /* Requirement-2.D*/
+  #id{
+      background-color:rgb(35, 90, 161);
+      width: auto;
+  }
+  /* Requirement-2.G*/
+  details {
+    border: 1px solid rgb(37, 11, 85);
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+/* Requirement-2.H*/
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+/* Requirement-2.F*/
+EM{color:aquamarine}
+H1 EM{color:aquamarine}
