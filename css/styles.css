@@ -6,11 +6,21 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, /* Requirement-2.10*/
 
 }
 
+h1{
+    color:white;
+    text-decoration: solid;
+    text-align: center;
+    width:auto;
+    padding: 10x;
+    background-color: purple;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
 /* Requirement-2.B*/
-h1, h2, h3, h4, h5, h6
+ h2, h3, h4, h5, h6
 {
     font-size:larger; /* Requirement-2.1*/
-    color: rgb(3, 36, 54); /* Requirement-2.3*/
+    color:cornsilk; /* Requirement-2.3*/
     font-weight: 200; /* Requirement-2.1*/
     font-family:fantasy /* Requirement-2.1*/
 
@@ -20,6 +30,7 @@ h1, h2, h3, h4, h5, h6
 /* Requirement-2.A*/
 ul{  
     background-color: rgb(78, 91, 207);
+    width: fit-content;
     display: block;
     list-style-type: circle; /* Requirement-2.8*/
     font-family:'Courier New', Courier, monospace
@@ -41,7 +52,7 @@ figure{
 .text{
     color: blue; /* Requirement-2.3*/
     line-height: 30px; /* Requirement-2.2*/
-    font-size: large; 
+    font-size: larger; 
     font-family:cursive; 
 
   }
@@ -104,8 +115,10 @@ ul.menu {
   }
   /* Requirement-2.D*/
   #id{
-      background-color:rgb(35, 90, 161);
-      width: auto;
+      background-color: rgb(158, 47, 158);
+      width: fit-content;
+      font-size: large;
+      color: aliceblue;
   }
   /* Requirement-2.G*/
   details {
@@ -122,4 +135,6 @@ summary {
 
 /* Requirement-2.F*/
 EM{color:aquamarine}
-H1 EM{color:aquamarine}
+
+
+

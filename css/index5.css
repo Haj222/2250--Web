@@ -1,0 +1,35 @@
+body{
+  background: rgb(63,94,251); /* Requirement-2.4*/
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, /* Requirement-2.10*/
+   rgba(252,70,107,1) 100%); /* Requirement-2.4*/
+  }
+
+
+  h2{
+    color:white;
+    text-decoration: solid;
+    text-align: center;
+    width:auto;
+    padding: 10x;
+    background-color: purple;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+  .goals{
+   font-size:x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+  
+  }
+      ul{  
+        width:fit-content;
+        background-color: rgb(78, 91, 207);
+        display: block;
+        list-style-type: circle; /* Requirement-2.8*/
+        font-family:Georgia, Times, 'Times New Roman', serif /* Requirement-2.1*/
+        
+        
+        
+    
+    }
+ 
+ 
